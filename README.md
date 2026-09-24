@@ -20,3 +20,24 @@ Model Hub gives platform administrators and product builders a shared place to c
 ## Guiding principle
 
 The right model is not universally the most capable one. It is the model that meets a defined quality bar for a specific workload while satisfying latency, cost, capacity, and governance constraints.
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Retain as a supporting AI product case.
+
+Strengthen workload-specific model selection and rollout decisions while keeping the current documentation-only scope explicit.
+
+### Next scope
+
+- [ ] Define one workload, its users and a minimum acceptable quality bar.
+- [ ] Specify comparable evaluation inputs, latency/cost constraints, routing fallback and provider-concentration trade-offs.
+- [ ] Incorporate prioritization and governance templates as sections of the existing PRD.
+- [ ] Link future implementation evidence to product decisions rather than presenting design documents as a running platform.
+
+### Validation and decision criteria
+
+A reviewer should be able to explain why a model or routing policy is chosen for the workload and what result would reverse that choice. Label forecasts and launch targets as assumptions.
+<!-- portfolio-future-plans:end -->
